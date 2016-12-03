@@ -7,3 +7,5 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $DOTFILES_DIR
 ln -s "$DOTFILES_DIR/.bashrc" ~
 ln -s "$DOTFILES_DIR/.inputrc" ~
+ln -s "$DOTFILES_DIR/.vimrc" ~
+ln -s "$DOTFILES_DIR/.vim" ~
