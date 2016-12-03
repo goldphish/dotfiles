@@ -17,12 +17,29 @@ colorscheme solarized
 syntax on
 filetype plugin indent on
 
-set incsearch
-set ignorecase smartcase
-set ruler
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set softtabstop=2
 set autoindent
+set expandtab
+set foldmethod=syntax
+set hlsearch
+set ignorecase smartcase
+set incsearch
+set list
+set listchars=tab:▸\ ,trail:▫
 set nosmartindent
+set ruler
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+
+map <buffer> <space> za
+nnoremap <F4> :set hls!<CR>
+
+if has("multi_byte")
+  if &termencoding == ""
+    let &termencoding = &encoding
+  endif
+  set encoding=utf-8
+  setglobal fileencoding=utf-8
+  "setglobal bomb
+  set fileencodings=ucs-bom,utf-8,latin1
+endif
