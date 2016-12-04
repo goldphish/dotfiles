@@ -1,0 +1,7 @@
+[begin] (fluxbox)
+[exec] (Google Chrome) {/opt/google/chrome/google-chrome} </opt/google/chrome/product_logo_32.xpm>
+[exec] (XTerm) {xterm} </usr/share/pixmaps/xterm-color_32x32.xpm>
+[exec] (Picard) {/usr/bin/picard} </usr/share/pixmaps/picard.xpm>
+[exec] (Rhythmbox) {/usr/bin/rhythmbox} </usr/share/pixmaps/rhythmbox-small.xpm>
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
