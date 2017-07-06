@@ -17,3 +17,8 @@ ln -s "$DOTFILES_DIR/.inputrc" ~
 ln -s "$DOTFILES_DIR/.vimrc" ~
 ln -s "$DOTFILES_DIR/.vim" ~
 ln -s "$DOTFILES_DIR/.screenrc" ~
+
+if [ $(uname) -eq "Linux"]; then
+  ln -s "$DOTFILES_DIR/.Xresources" ~
+  ln -s "$DOTFILES_DIR/.fluxbox" ~
+fi
