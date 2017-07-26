@@ -17,3 +17,8 @@ fi
 [[ ! -a "$HOME/.tmux.conf" ]] && ln -s "$DOTFILES_DIR/.tmux.conf" ~
 [[ ! -a "$HOME/.vim" ]] && ln -s "$DOTFILES_DIR/.vim" ~
 [[ ! -a "$HOME/.vimrc" ]] && ln -s "$DOTFILES_DIR/.vimrc" ~
+[[ ! -a "$HOME/.Xresources" ]] && ln -s "$DOTFILES_DIR/.Xresources" ~
+
+if [[ $(uname) -eq "Linux" ]]; then
+  ln -s "$DOTFILES_DIR/.fluxbox" ~
+fi
