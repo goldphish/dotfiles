@@ -1,171 +1,92 @@
-XTerm*VT100.translations: #override\n\
-  Shift <Btn1Down>:  select-start()\n\
-  Shift <Btn1Motion>:  select-extend()\n\
-  Shift <Btn1Up>:  select-end(CLIPBOARD)\n\
-  Shift <Btn2Up>:  insert-selection(CLIPBOARD)\n\
-  Shift <Btn3Down>:  start-extend()\n\
-  Shift <Btn3Motion>:  select-extend()\n\
-  Shift <Btn3Up>:  select-end(CLIPBOARD)
-
-XTerm*background: black
-XTerm*foreground: white
-XTerm*borderWidth: 0
-XTerm*backarrowKeyIsErase: false
-XTerm*hold: false
-XTerm*maximized: false
-XTerm*messages: true
-XTerm*menuLocale: C
-XTerm*ptyHandshake: true
-XTerm*ptyInitialErase: false
-XTerm*ptySttySize: false
-XTerm*sameName: true
-XTerm*sessionMgt: true
-XTerm*termName: xterm-color
-XTerm*title: xterm
-XTerm*toolBar: false
-XTerm*useInsertMode: false
-XTerm*utmpDisplayId: true
-XTerm*utmpInhibit: false
-XTerm*waitForMap: false
-XTerm*zIconBeep: 0
-XTerm*vt100.activeIcon: true
-XTerm*vt100.allowC1Printable: false
-XTerm*vt100.allowFontOps: false
-XTerm*vt100.allowSendEvents: false
-XTerm*vt100.allowTcapOps: false
-XTerm*vt100.allowTitleOps: true
-XTerm*vt100.allowWindowOps: false
-XTerm*vt100.altIsNotMeta: false
-XTerm*vt100.alwaysBoldMode: false
-XTerm*vt100.alwaysHighlight: false
-XTerm*vt100.alwaysUseMods: false
-XTerm*vt100.appcursorDefault: false
-XTerm*vt100.appkeypadDefault: false
-XTerm*vt100.autoWrap: true
-XTerm*vt100.awaitInput: false
-XTerm*vt100.backarrowKey: true
-XTerm*vt100.bellIsUrgent: false
-XTerm*vt100.bellOnReset: false
-XTerm*vt100.bellSuppressTime: 1000
-XTerm*vt100.boldColors: true
-XTerm*vt100.boldFont: -bitstream-bitstream vera sans mono-bold-r-normal--*-*-100-100-c-*-iso8859-1
-XTerm*vt100.boldMode: false
-XTerm*vt100.brokenLinuxOSC: true
-XTerm*vt100.brokenSelections: false
-XTerm*vt100.brokenStringTerm: false
-XTerm*vt100.c132: false
-XTerm*vt100.cacheDoublesize: 0
-XTerm*vt100.cjkWidth: false
-XTerm*vt100.colorAttrMode: false
-XTerm*vt100.colorBDMode: false
-XTerm*vt100.colorBLMode: false
-XTerm*vt100.colorMode: true
-XTerm*vt100.colorRVMode: false
-XTerm*vt100.colorULMode: false
-XTerm*vt100.combiningChars: 2
-XTerm*vt100.curses: false
-XTerm*vt100.cursorBlink: false
-XTerm*vt100.cutNewline: false
-XTerm*vt100.cursorUnderLine: false
-XTerm*vt100.decTerminalID: 100
-XTerm*vt100.defaultString: #
-XTerm*vt100.deleteIsDEL: false
-XTerm*vt100.dynamicColors: true
-XTerm*vt100.eightBitControl: false
-XTerm*vt100.eightBitInput: true
-XTerm*vt100.eightBitOutput: true
-XTerm*vt100.faceName: Bitstream Vera Sans Mono
-XTerm*vt100.faceSize: 12
-XTerm*vt100.font: -bitstream-bitstream vera sans mono-medium-r-*-*-*-*-100-100-c-*-iso8859-1
-XTerm*vt100.fontDoublesize: true
-XTerm*vt100.fontWarnings: 2
-XTerm*vt100.forceBoxChars: false
-XTerm*vt100.formatOtherKeys: 0
-XTerm*vt100.freeBoldBox: false
-XTerm*vt100.geometry: 80x40
-XTerm*vt100.highlightColorMode: false
-XTerm*vt100.highlightReverse: true
-XTerm*vt100.highlightSelection: false
-XTerm*vt100.hpLowerleftBugCompat: false
-XTerm*vt100.i18nSelections: true
-XTerm*vt100.iconBorderWidth: 0
-XTerm*vt100.iconFont: nil2
-XTerm*vt100.initialFont: d
-XTerm*vt100.internalBorder: 1
-XTerm*vt100.italicULMode: false
-XTerm*vt100.jumpScroll: true
-XTerm*vt100.keepSelection: false
-XTerm*vt100.keyboardDialect: B
-XTerm*vt100.limitResize: 1
-XTerm*vt100.locale: false
-XTerm*vt100.loginShell: false
-XTerm*vt100.marginBell: false
-XTerm*vt100.metaSendsEscape: false
-XTerm*vt100.mkSamplePass: 256
-XTerm*vt100.mkSampleSize: 1024
-XTerm*vt100.mkWidth: false
-XTerm*vt100.modifyCursorKeys: 2
-XTerm*vt100.modifyFunctionKeys: 2
-XTerm*vt100.modifyOtherKeys: 0
-XTerm*vt100.multiClickTime: 250
-XTerm*vt100.multiScroll: false
-XTerm*vt100.numLock: true
-XTerm*vt100.oldXtermFKeys: false
-XTerm*vt100.openIm: true
-XTerm*vt100.pointerMode: 0
-XTerm*vt100.popOnBell: false
-XTerm*vt100.printAttributes: 1
-XTerm*vt100.printerAutoClose: false
-XTerm*vt100.printerControlMode: 0
-XTerm*vt100.printerExtent: false
-XTerm*vt100.printerFormFeed: false
-XTerm*vt100.quietGrab: true
-XTerm*vt100.renderFont: true
-XTerm*vt100.resizeGravity: SouthWest
-XTerm*vt100.reverseVideo: false
-XTerm*vt100.reverseWrap: false
-XTerm*vt100.rightScrollBar: false
-XTerm*vt100.saveLines: 1024
-XTerm*vt100.scrollBar: false
-XTerm*vt100.scrollBarBorder: 1
-XTerm*vt100.scrollKey: false
-XTerm*vt100.scrollLines: 1
-XTerm*vt100.scrollTtyOutput: true
-XTerm*vt100.selectToClipboard: false
-XTerm*vt100.shiftFonts: true
-XTerm*vt100.showBlinkAsBold: false
-XTerm*vt100.showMissingGlyphs: true
-XTerm*vt100.signalInhibit: false
-XTerm*vt100.tiXtraScroll: true
-XTerm*vt100.titeInhibit: true
-XTerm*vt100.trimSelection: true
-XTerm*vt100.underLine: true
-XTerm*vt100.useClipping: true
-XTerm*vt100.utf8: 2
-XTerm*vt100.utf8Fonts: true
-XTerm*vt100.utf8Fonts.font: -bitstream-bitstream vera sans mono-medium-r-normal--*-*-100-100-c-*-iso10646-1
-XTerm*vt100.utf8Latin1: false
-XTerm*vt100.utf8Title: true
-XTerm*vt100.veryBoldColors: 0
-XTerm*vt100.visualBell: false
-XTerm*vt100.visualBellDelay: 100
-XTerm*vt100.vt100Graphics: true
-XTerm*vt100.wideChars: false
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
 
 
-URxvt*loginShell:true
-URxvt*saveLines:200000
-URxvt*font: xft:Bitstream Vera Sans Mono-12:light:antialias=true
-URXvt*boldFont: xft:Bitstream Vera Sans Mono-12:medium:antialias=true
-URxvt*scrollBar_right:false
-URxvt*scrollKey:false
-URxvt*troughColor:MidnightBlue
-URxvt*scrollColor:MidnightBlue
-URxvt*scrollstyle:plain
-URxvt*background:Black
-URxvt*foreground:White
-URxvt*jumpScroll:false
-URxvt*geometry:80x40+0+0
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
 
 
-Gvim.geometry:120x120
+! Dark
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+
+! Light
+
+! #define S_base03        #fdf6e3
+! #define S_base02        #eee8d5
+! #define S_base01        #93a1a1
+! #define S_base00        #839496
+! #define S_base0         #657b83
+! #define S_base1         #586e75
+! #define S_base2         #073642
+! #define S_base3         #002b36
+
+
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
+
+*background:              S_base03
+*foreground:              S_base0
+*fading:                  40
+*fadeColor:               S_base03
+*cursorColor:             S_base1
+*pointerColorBackground:  S_base01
+*pointerColorForeground:  S_base1
+
+*color0:                  S_base02
+*color1:                  S_red
+*color2:                  S_green
+*color3:                  S_yellow
+*color4:                  S_blue
+*color5:                  S_magenta
+*color6:                  S_cyan
+*color7:                  S_base2
+*color9:                  S_orange
+*color8:                  S_base03
+*color10:                 S_base01
+*color11:                 S_base00
+*color12:                 S_base0
+*color13:                 S_violet
+*color14:                 S_base1
+*color15:                 S_base3
+
+XTerm*faceName: Source Code Pro Regular
+XTerm*faceSize: 14
+XTerm*geometry:161x66
+XTerm*jumpScroll:false
+XTerm*loginShell:false
+XTerm*saveLines:200000
+XTerm*scrollBar_right:false
+XTerm*scrollKey:false
+XTerm*scrollstyle:plain
+XTerm*altIsNotMeta:true
+XTerm*altSendsEscape:true
+XTerm*titeInhibit:true
+XTerm*termName: xterm-256color
+
+Xft.antialias:  1
+Xft.autohint: 0
+Xft.dpi:  138
+Xft.hinting:  1
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcdlight
+Xft.rgba: rgb
