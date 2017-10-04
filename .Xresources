@@ -73,14 +73,19 @@
 ! End Solarized stuff
 !
 
-XTerm*renderFont: true
-XTerm*backarrowKeyIsErase: false
-XTerm*termName: xterm-256color
-XTerm*toolBar: false
-XTerm*useInsertMode: false
-XTerm*faceName: Andale Mono
+XTerm*faceName: Source Code Pro Regular
 XTerm*faceSize: 14
-XTerm*geometry: 80x40
+XTerm*geometry:161x66
+XTerm*jumpScroll:false
+XTerm*loginShell:false
+XTerm*saveLines:200000
+XTerm*scrollBar_right:false
+XTerm*scrollKey:false
+XTerm*scrollstyle:plain
+XTerm*altIsNotMeta:true
+XTerm*altSendsEscape:true
+XTerm*titeInhibit:true
+XTerm*termName: xterm-256color
 
 Xft.dpi: 128
 Xft.autohint: false
