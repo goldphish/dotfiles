@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/dan/fontconfig'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/dan/src/envoy-docker'
+let g:netrw_dirhist_2='/home/dan/aur'
+let g:netrw_dirhist_3='/home/dan/envoy-docker/bootstrap.yaml'

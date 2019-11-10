@@ -7,6 +7,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -19,7 +20,6 @@ filetype plugin indent on
 
 set autoindent
 set expandtab
-set foldmethod=syntax
 set hlsearch
 set ignorecase smartcase
 set incsearch
@@ -43,3 +43,7 @@ if has("multi_byte")
   "setglobal bomb
   set fileencodings=ucs-bom,utf-8,latin1
 endif
+
+set showtabline=2
+set laststatus=2
+"set noshowmode
