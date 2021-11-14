@@ -18,6 +18,7 @@ shopt -s histappend
 export PROMPT_COMMAND='history -a'
 export HISTCONTROL='ignoredups'
 export HISTSIZE=500000
+export QT_FONT_DPI=96
 
 export LIBGL_ALWAYS_INDIRECT=1
 export QT_QPA_PLATFORMTHEME="qt5ct"
