@@ -82,8 +82,9 @@ XTerm*saveLines:200000
 XTerm*scrollBar_right:false
 XTerm*scrollKey:false
 XTerm*scrollstyle:plain
-XTerm*altIsNotMeta:true
-XTerm*altSendsEscape:true
+!XTerm*altIsNotMeta:true
+!XTerm*altSendsEscape:true
+XTerm*metaSendsEscape: true
 XTerm*titeInhibit:true
 XTerm*termName: xterm-256color
 

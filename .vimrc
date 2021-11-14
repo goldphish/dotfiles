@@ -1,6 +1,7 @@
+" vim: foldmethod=marker
+" Vundle Stuff {{{
 set nocompatible
 filetype off
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -8,17 +9,30 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized.git'
 Plugin 'fatih/vim-go'
-
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+call vundle#end()
+" No more Vundle Stuff }}}
+
+set autoindent
+set backspace=indent,eol,start
+set complete-=i
+
+set smarttab
+
+set path+=**
+set wildmenu
+command! MakeTags !ctags -R .
 
 set background=dark
 colorscheme solarized
+let g:airline_solarized_bg='dark'
+let g:airline_theme='base16_solarized'
 
 syntax on
 filetype plugin indent on
 
-set autoindent
 set expandtab
 set hlsearch
 set ignorecase smartcase
@@ -45,5 +59,4 @@ if has("multi_byte")
 endif
 
 set showtabline=2
-set laststatus=2
 "set noshowmode
